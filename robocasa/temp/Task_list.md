@@ -1,0 +1,48 @@
+## Atomic Tasks:
+- PickPlaceCounterToCabinet
+- PickPlaceCabinet ToCounter
+- PickPlaceCounterToSink
+- PickPlaceSinkToCounter
+- PickPlaceCounterToMicrowave
+- PickPlaceMicrowaveToCounter
+- PickPlaceCounterToStove
+- PickPlaceStoveToCounter
+- OpenSingleDoor
+- CloseSingleDoor
+- OpenDoubleDoor
+- CloseDoubleDoor
+- OpenDrawer
+- CloseDrawer
+- TurnOnStove
+- TurnOffStove
+- TurnOnSinkFacuet
+- TurnOffSinkFaucet
+- TurnSinkSpout
+- CoffeePressButton
+- TurnOnMicrowave
+- TurnOffMicrowave
+- CoffeeSetupMug
+- CoffeeServeMug
+- NavigateKitchen
+
+## Composite Tasks:
+- PrepareCoffee
+- DryDishes
+- RestockPantry
+- ArrangeVegetables
+- CheesyBread
+- MicrowaveThawing
+- FillKettle
+- PrepMarinatingMeat
+- DateNite
+- BowlAndCup
+- PrepForSanitizing
+- MakeFruit Bowl
+- PantryMishap
+- DrainVeggies
+- SetupFrying
+- HeatMug
+- ColorfulSalsa
+- OrganizeBakingIngredients
+- PlaceFoodInBowls
+- SteamInMicrowave
