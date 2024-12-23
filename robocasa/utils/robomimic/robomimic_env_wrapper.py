@@ -62,7 +62,7 @@ class EnvRobocasa:
             ignore_done=True,
             use_object_obs=True,
             use_camera_obs=use_image_obs,
-            camera_depths=False,
+            camera_depths=True,  # loki change
         )
         kwargs.update(update_kwargs)
 
@@ -82,7 +82,7 @@ class EnvRobocasa:
             # make sure gripper visualization is turned off (we almost always want this for learning)
             kwargs["gripper_visualization"] = False
             del kwargs["camera_depths"]
-            kwargs["camera_depth"] = False  # rename kwarg
+            kwargs["camera_depth"] = True  # rename kwarg # loki change
 
         self._env_name = env_name
         self._init_kwargs = deepcopy(kwargs)
