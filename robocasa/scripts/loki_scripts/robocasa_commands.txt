@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=1 MPI_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python robocasa/scripts/dataset_states_to_obs.py --dataset <ds-path> --num_procs 1 --camera_height 224 --camera_width 224
